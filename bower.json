@@ -1,6 +1,6 @@
 {
-    "name": "datatables.net-searchbuilder-bs",
-    "description": "Advanced Search Builder for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
+    "name": "datatables.net-searchbuilder-bs4",
+    "description": "Advanced Search Builder for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
     "main": [
         "js/searchBuilder.bootstrap4.js",
         "css/searchBuilder.bootstrap4.css"
