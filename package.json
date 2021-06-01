@@ -3,6 +3,7 @@
     "description": "SearchBuilder for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/searchBuilder.bootstrap4.js",
     "style": "css/searchBuilder.bootstrap4.css",
+    "types": "./types/searchBuilder.bootstrap4.d.ts",
     "version": "1.0.1",
     "files": [
         "css/**/*.css",
