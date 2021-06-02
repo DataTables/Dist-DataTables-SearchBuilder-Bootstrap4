@@ -1,6 +1,6 @@
 # SearchBuilder for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
-This package contains a built distribution of the [SearchBuilder extension](https://datatables.net/extensions/SearchBuilder) for [DataTables](https://datatables.net/) with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
+This package contains a built distribution of the [SearchBuilder extension](https://datatables.net/extensions/searchbuilder) for [DataTables](https://datatables.net/) with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
 
 SearchBuilder adds user defined complex search to the DataTable with the capability to search the DataTable by creating groups and conditions.
 
