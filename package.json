@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-searchbuilder-bs4",
     "description": "SearchBuilder for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
-    "main": "js/searchBuilder.bootstrap4.js",
-    "module": "js/searchBuilder.bootstrap4.mjs",
-    "style": "css/searchBuilder.bootstrap4.css",
+    "main": "./js/searchBuilder.bootstrap4.js",
+    "module": "./js/searchBuilder.bootstrap4.mjs",
+    "style": "./css/searchBuilder.bootstrap4.css",
     "types": "./types/searchBuilder.bootstrap4.d.ts",
     "version": "2.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "SearchBuilder",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/SearchBuilder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/searchBuilder.bootstrap4.d.ts",
+            "import": "./js/searchBuilder.bootstrap4.mjs",
+            "default": "./js/searchBuilder.bootstrap4.mjs",
+            "require": "./js/searchBuilder.bootstrap4.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/searchBuilder.bootstrap4.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
